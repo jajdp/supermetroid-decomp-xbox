@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  IgnorableNamespaces="uap mp">
+
+  <!-- CAMBIA LAS DOS PRIMERAS LINEAS POR LAS TUYAS antes de empaquetar.
+
+       Publisher tiene que ser IDENTICO al sujeto de tu certificado de firma (docs/INSTALL.md
+       seccion 4): Visual Studio compara las dos cadenas y la consola tambien.
+
+       Name es el nombre interno del paquete. Con el Publisher forma la FAMILIA, que es como la
+       consola reconoce al juego y de la que cuelga su LocalState: ahi viven la configuracion y
+       las partidas. Cambiarlo mas adelante crea otro juego a ojos de la consola. Eligelo una
+       vez y dejalo. -->
+  <Identity
+    Name="CHANGE-ME-SuperMetroidUWP"
+    Publisher="CN=CHANGE-ME"
+    Version="0.1.8.0" />
+
+  <mp:PhoneIdentity PhoneProductId="7c1a5d84-2f60-4c3b-9a11-5be0d2c4a907" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>Super Metroid</DisplayName>
+    <PublisherDisplayName>CHANGE-ME</PublisherDisplayName>
+    <Logo>uwp-assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+      Executable="$targetnametoken$.exe"
+      EntryPoint="sm.App">
+      <uap:VisualElements
+        DisplayName="Super Metroid"
+        Square150x150Logo="uwp-assets\Square150x150Logo.png"
+        Square44x44Logo="uwp-assets\Square44x44Logo.png"
+        Description="UWP build of the snesrev/sm decompilation, for an Xbox Series in Developer Mode"
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="uwp-assets\Wide310x150Logo.png" Square71x71Logo="uwp-assets\SmallTile.png" Square310x310Logo="uwp-assets\LargeTile.png"/>
+        <uap:SplashScreen Image="uwp-assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

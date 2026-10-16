@@ -1,0 +1,68 @@
+# Nothing that belongs to the game ever goes in here. Blocked by extension, so it cannot slip in
+# by accident, and not as a substitute for reading NOTICE.md.
+
+# ROM dumps and the asset blobs extracted from them
+*.sfc
+*.smc
+*.fig
+*.swc
+*.dat
+*.zip
+*.7z
+
+# executables, debug info and packages
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+*.obj
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.appxsym
+*.appxupload
+
+# signing certificates: yours is yours. Visual Studio drops a TemporaryKey next to a UWP
+# project, and that one is a private key -- it must never be committed.
+*.pfx
+*.p12
+*.cer
+*.snk
+*_TemporaryKey.*
+
+# saves and state
+*.sav
+*.srm
+*.state
+saves/
+
+# build trees and what Visual Studio leaves behind
+build/
+Debug/
+Release/
+x64/
+AppPackages/
+BundleArtifacts/
+*.vcxproj.user
+*.aps
+.vs/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# editors and OS
+.vscode/
+.idea/
+*.swp
+*.log
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# The package tiles are supplied by whoever packages (docs/ASSETS.md); no game art is
+# distributed here.
+package/Assets/*.png
