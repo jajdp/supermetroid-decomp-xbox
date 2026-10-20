@@ -29,7 +29,7 @@ el que se usó para construir y probar esto.
 | SDL2 | **2.26.3, en fuente**, vendorizado en `third_party\SDL2\` y retargeteado a v143 | Los binarios de escritorio no pueden correr en un AppContainer: sin backend de vídeo de WinRT y con importaciones que no están |
 | SDK de Windows | 10.0.26100 o similar | Solo si reempaquetas con tus mosaicos (`makeappx`, `signtool`) |
 | Python 3 | Cualquiera 3.8+ | `tools/apply_uwp.py`, solo biblioteca estándar; y la extracción de datos del propio proyecto |
-| Una Xbox Series | En **modo desarrollador** y con un usuario conectado | Instalar un paquete sin nadie conectado parece un paquete roto |
+| Una Xbox Series X | En **modo desarrollador** y con un usuario conectado | Instalar un paquete sin nadie conectado parece un paquete roto |
 
 ## La consola
 

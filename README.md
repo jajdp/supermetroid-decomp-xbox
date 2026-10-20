@@ -1,13 +1,23 @@
 # Super Metroid on Xbox — the UWP port
 
 How to take the [snesrev/sm](https://github.com/snesrev/sm) decompilation of *Super Metroid* (Super
-Nintendo, 1994) and run it **on an Xbox Series in Developer Mode**, as a UWP package you build
+Nintendo, 1994) and run it **on an Xbox Series X in Developer Mode**, as a UWP package you build
 and sign yourself.
 
 *(Español: [README.es.md](README.es.md))*
 
-It is not a theory: the package built with this recipe has been running on two Xbox Series consoles
+It is not a theory: the package built with this recipe has been running on two Xbox Series X consoles
 since 2026-09-05, and the one on them today is 0.1.0.1.
+
+## Which console this was tested on
+
+**An Xbox Series X**, in Developer Mode. Both of the consoles this was built and tested on are Series X,
+so that is the only hardware anything claimed here covers.
+
+**A Series S has never been tried — not once.** It is a different machine: less memory available to a
+game and a weaker GPU. This may work on one, it may run slower, or it may not start at all; nothing here
+has been measured on it. If you run it on a Series S, what you get is not what this README reports, and
+none of the numbers here are a promise about that console.
 
 ## What this repository is
 

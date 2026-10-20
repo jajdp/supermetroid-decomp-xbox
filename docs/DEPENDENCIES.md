@@ -29,7 +29,7 @@ dump is the one this was built and tested with.
 | SDL2 | **2.26.3, source**, vendored in `third_party\SDL2\` and retargeted to v143 | The desktop binaries cannot run in an AppContainer: no WinRT video backend, and imports that are not there |
 | Windows SDK | 10.0.26100 or similar | Only if you re-package with your own tiles (`makeappx`, `signtool`) |
 | Python 3 | Any 3.8+ | `tools/apply_uwp.py`, standard library only; and the project's own asset extraction |
-| An Xbox Series | In **Developer Mode**, with a user signed in | Installing a package with nobody signed in looks like a broken package |
+| An Xbox Series X | In **Developer Mode**, with a user signed in | Installing a package with nobody signed in looks like a broken package |
 
 ## The console
 
