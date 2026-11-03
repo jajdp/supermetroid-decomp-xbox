@@ -23,6 +23,6 @@ through a shell pipeline can arrive with its newlines stripped, and then `git ap
 that looks like *your* checkout is wrong); that the checkout is a git work tree, so the patch can
 be checked rather than attempted; and whether each copied file is already there and identical.
 
-There is no `package_uwp.py` here on purpose. In this family MSBuild compiles, packages and signs
-in one step, so a packaging script of ours would only get in the way. The snesrecomp ports
-(`dkc1-xbox` and friends) do have one, because there the packaging is `makeappx` by hand.
+There is no `package_uwp.py` here on purpose: in this family MSBuild compiles, packages and signs
+in one step, so a packaging script of ours would only get in the way. Where packaging is
+`makeappx` by hand, a script does earn its place — it just is not the case here.

@@ -23,6 +23,6 @@ pasado por una tubería de shell puede llegar sin saltos de línea, y entonces `
 una forma que parece culpa de *tu* copia); que la copia sea un árbol de git, para poder comprobar
 el parche en vez de intentarlo; y si cada archivo copiado ya está y es idéntico.
 
-Aquí no hay `package_uwp.py` a propósito. En esta familia MSBuild compila, empaqueta y firma en un
-solo paso, así que un script de empaquetado nuestro solo estorbaría. Los ports de snesrecomp
-(`dkc1-xbox` y compañía) sí lo llevan, porque allí el empaquetado es `makeappx` a mano.
+Aquí no hay `package_uwp.py` a propósito: en esta familia MSBuild compila, empaqueta y firma en un
+solo paso, así que un script de empaquetado nuestro solo estorbaría. Donde el empaquetado es
+`makeappx` a mano un script sí se gana su sitio, pero no es el caso aquí.
