@@ -223,7 +223,7 @@ index 64ececa..c6b8929 100644
 +     * es ir escribiéndola mientras se juega.
 +     *
 +     * Aquí el cuadro está entero y ya se presentó, que es cuando el estado es
-+     * coherente. Diez segundos es lo que se usa en los demás ports de la casa. */
++     * coherente. Diez segundos equilibra perder poco y no castigar el disco. */
 +    if (g_config.autosave) {
 +      static uint32 s_t_estado = 0;
 +      if (curTick - s_t_estado >= 10000) {
