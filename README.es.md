@@ -101,6 +101,16 @@ es la receta; el compilador es el de Visual Studio.
 
 ## Créditos y licencia
 
+**Casi nada de lo que hace que esto funcione es nuestro.** Este repositorio es una receta que une el trabajo de otros; sin cualquiera de estas piezas no habría port.
+
+| Qué hace | Quién lo hizo | Licencia |
+|---|---|---|
+| **[sm](https://github.com/snesrev/sm)** — decompila *Super Metroid* | **snesrev** | see the project |
+| **[SDL](https://github.com/libsdl-org/SDL)** — ventana, mando y audio | **Sam Lantinga** and the SDL contributors | zlib |
+
+**La receta de empaquetado, las herramientas y esta documentación** son de **Recompilaciones**.
+
+
 Port y herramientas de **Recompilaciones**, bajo la [licencia MIT](LICENSE).
 
 De trabajo ajeno, este repositorio lleva: `uwpfunc.cpp` y `uwpfunc.h`, del **port UWP de zelda3**

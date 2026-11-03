@@ -99,6 +99,16 @@ is verified; the compiler is Visual Studio's.
 
 ## Credits and license
 
+**Almost none of what makes this work is ours.** This repository is a recipe that glues together other people's work; without any one of these pieces there would be no port at all.
+
+| What it does | Who made it | License |
+|---|---|---|
+| **[sm](https://github.com/snesrev/sm)** — decompiles *Super Metroid* | **snesrev** | see the project |
+| **[SDL](https://github.com/libsdl-org/SDL)** — window, input and audio | **Sam Lantinga** and the SDL contributors | zlib |
+
+**The packaging recipe, the tooling and this documentation** are by **Recompilaciones**.
+
+
 Port and tooling by **Recompilaciones**, under the [MIT License](LICENSE).
 
 Of other people's work this repository carries: `uwpfunc.cpp` and `uwpfunc.h`, from the **zelda3
